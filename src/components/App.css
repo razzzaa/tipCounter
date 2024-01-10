@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.header {
+  font-family: "Rouge Script", cursive;
+  font-size: 6em;
+}
+.modalHeader {
+  font-family: "Rouge Script", cursive;
+  font-size: 1.8em;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 22vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  z-index: 2;
+}
+
+.main {
+  margin: 30px;
+}
+
+button.addBtn {
+  background-color: #0f9d58;
+}
+
+button.cancelBtn {
+  background-color: #db4437;
+}
+
+button.addFrnd {
+  background-color: #1da1f2;
+}
+
+button.cancelBtn,
+button.reset {
+  background-color: #db4437;
+}
+
+button.addBtn,
+button.cancelBtn {
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  width: 70px;
+  border-radius: 5px;
+  border: 1px thick grey;
+}
+button.addFrnd,
+button.reset {
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#bill {
+  margin: 5px;
+}
+
+.tipSelect {
+  margin: 5px;
+}
+
+.openModal {
+  transition: 0.5s;
+  filter: blur(1.5em);
+}
+
+.mainTips {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  border-radius: 10px;
+}
+
+.mainBar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 10vw;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: inline-flex;
+  font-size: 1.1em;
+}
+
+.fams {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  z-index: 3;
+}
+
+.fams:hover {
+  height: 130vh;
+}
+
+.delete:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
