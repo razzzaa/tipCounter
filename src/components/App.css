@@ -126,3 +126,10 @@ button.reset {
   transition: 1s;
   transform: scale(1.1);
 }
+
+input,
+select {
+  border-radius: 3px;
+  border: 1px solid grey;
+  padding: 3px;
+}
